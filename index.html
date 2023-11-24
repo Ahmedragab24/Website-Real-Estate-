@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Grilli - Amazing & Delicious Food</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+  - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--  
+     SWIPER CSS  
+    -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+
+    <!--
+    - BoxIcon 
+  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Four Directions</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Building Number 3551 Northern ring Road postal code 12468 City
+            Riyadh
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Daily : 8.00 am to 10.00 pm</span>
+        </div>
+
+        <a href="tel:+11234567890" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+1 123 456 7890</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:booking@restaurant.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">booking@restaurant.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.png"
+            width="160"
+            height="50"
+            alt="Grilli - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.png"
+              width="160"
+              height="50"
+              alt="Grilli - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#event" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Our Projects</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Features</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+
+            <!-- Theme change button -->
+            <li class="navbar-item">
+              <i class="bx bx-moon change-theme" id="theme-button"></i>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              Restaurant St, Delicious City, <br />
+              London 9578, UK
+            </address>
+
+            <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+            <a href="mailto:booking@grilli.com" class="body-4 sidebar-link"
+              >booking@grilli.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:+88123123456"
+              class="body-1 contact-number hover-underline"
+            >
+              +88-123-123456
+            </a>
+          </div>
+        </nav>
+
+        <a href="#" class="btn btn-secondary">
+          <span class="text text-1">Call Us Now</span>
+
+          <span class="text text-2" aria-hidden="true">Call Us Now</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider container" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-1.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Expertise and Experience
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                The company has <br />
+                extensive experience
+              </h1>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Features</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >View Our Features</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-2.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Quality Construction
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                We guarantee you quality <br />
+                construction and finishes
+              </h1>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Features</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >View Our Features</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-3.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Innovative Design
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                We are distinguished by <br />
+                distinctive designs
+              </h1>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Features</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >View Our Features</span
+                >
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#" class="hero-btn has-after">
+            <img
+              src="./assets/images/hero-icon.png"
+              width="48"
+              height="48"
+              alt="booking icon"
+            />
+
+            <span class="label-2 text-center span">FOUR DIRECTIONS</span>
+          </a>
+        </section>
+
+        <!-- 
+        - #OUR PROJECTS
+      -->
+
+        <section class="section event" aria-label="event" id="event">
+          <div class="home__shape_small"></div>
+          <div class="home__shape_big-1"></div>
+          <!-- <div class="home__shape_big-2"></div> -->
+          <img
+            src="./assets/images/shape-bg.png"
+            alt=""
+            class="home__shape_bg"
+          />
+          <div class="container">
+            <p class="section-subtitle label-2 text-center">Our Projects</p>
+
+            <h2 class="section-title headline-1 text-center">
+              FOUR DIRECTIONS
+            </h2>
+
+            <div class="grid-list swiper mySwiper">
+              <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-1.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-15"
+                        >Palm neighborhood</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">
+                        Business Square
+                      </p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Business Square, Riyadh, Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-2.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-08"
+                        >Palm neighborhood</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">
+                        Saud Square
+                      </p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Saud Square, Riyadh, Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-3.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-03"
+                        >Prince Turki Road</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">
+                        Centro De Vida
+                      </p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Centro De Vida, Riyadh, Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-4.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-03"
+                        >Al Alia District</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">
+                        Yamama City Center Tower
+                      </p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Yamama City Center Tower, Riyadh, Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-5.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-03"
+                        >Othman bin Affan Road</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">
+                        Al Nada Plaza
+                      </p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Al Nada Plaza, Riyadh, Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-6.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-03"
+                        >Olaya Main Road</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">
+                        Yamama Olaya Tower
+                      </p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Yamama Olaya Tower, Riyadh, Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-7.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-03"
+                        >King Fahd Road</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">Sakif</p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Sakif Diriyah, Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-8.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-03"
+                        >Corniche Road</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">
+                        Boulevard Jazan
+                      </p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Boulevard, Jazan Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="swiper-slide">
+                  <div class="event-card has-before hover:shine">
+                    <div class="card-banner img-holder">
+                      <img
+                        src="./assets/images/event-9.jpg"
+                        loading="lazy"
+                        alt="Flavour so good you’ll try to eat with your eyes."
+                        class="img-cover"
+                      />
+
+                      <time class="publish-date label-2" datetime="2022-09-03"
+                        >Palm neighborhood</time
+                      >
+                    </div>
+
+                    <div class="card-content">
+                      <p class="card-subtitle label-2 text-center">
+                        Yamama Park
+                      </p>
+
+                      <h3 class="card-title title-2 text-center">
+                        Yamama Park, Riyadh, Saudi Arabia.
+                      </h3>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">View Our Projects</span>
+
+              <span class="text text-2" aria-hidden="true"
+                >View Our Projects</span
+              >
+            </a>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="home__shape_small"></div>
+          <div class="home__shape_big-1"></div>
+          <div class="home__shape_big-2"></div>
+          <img
+            src="./assets/images/shape-bg.png"
+            alt=""
+            class="home__shape_bg"
+          />
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">About Us</p>
+
+              <h2 class="headline-1 section-title">FOUR DIRECTIONS</h2>
+
+              <p class="section-text">
+                We deliver excellence, outperformance, and world-class for
+                modern and sustainable workplaces and living spaces in line with
+                the aspirations and vision of the Kingdom of Saudi Arabia to
+                enhance the quality of life by uplifting the real estate
+                development concept in the kingdom.
+              </p>
+
+              <div class="contact-label">Call Us Now</div>
+
+              <a
+                href="tel:+804001234567"
+                class="body-1 contact-number hover-underline"
+                >+80 (400) 123 4567</a
+              >
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Read More</span>
+
+                <span class="text text-2" aria-hidden="true">Read More</span>
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.jpg"
+                width="570"
+                height="570"
+                alt="about banner"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="./assets/images/about-abs-image.jpg"
+                  width="285"
+                  height="285"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img
+                  src="./assets/images/badge-2.png"
+                  width="163"
+                  height="174"
+                  alt=""
+                />
+              </div>
+            </figure>
+
+            <!-- <img
+              src="./assets/images/shape-3.png"
+              width="150"
+              height="150"
+              alt=""
+              class="shape"
+            /> -->
+          </div>
+        </section>
+
+        <!-- 
+        - #SPECIAL DISH
+      -->
+
+        <section class="special-dish text-center" aria-labelledby="dish-label">
+          <div class="special-dish-banner">
+            <img
+              src="./assets/images/special-dish-banner.jpg"
+              width="940"
+              height="900"
+              alt="special dish"
+              class="img-cover"
+            />
+          </div>
+
+          <div class="special-dish-content bg-black-10">
+            <div class="container">
+              <div class="home__shape_big-2"></div>
+
+              <img
+                src="./assets/images/badge-1.png"
+                width="28"
+                height="41"
+                alt="badge"
+                class="abs-img"
+              />
+
+              <p class="section-subtitle label-2">Our Mission</p>
+
+              <h2 class="headline-1 section-title">Comprehensive Planning</h2>
+
+              <p class="section-text">
+                Our unique experts of engineers, surveyors, project managers,
+                cost consultants, and sustainability experts conduct all
+                commercial and residential development activities by working
+                closely across our highly qualified groups to offer
+                comprehensive solutions spanning the entire property life cycle.
+              </p>
+
+              <div class="wrapper">
+                <span class="span body-1">Based in Riyadh</span>
+              </div>
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Read more</span>
+
+                <span class="text text-2" aria-hidden="true">Read more</span>
+              </a>
+            </div>
+          </div>
+
+          <img
+            src="./assets/images/shape-9.png"
+            width="351"
+            height="462"
+            alt=""
+            class="shape shape-2"
+          />
+        </section>
+
+        <!-- 
+        - #MENU
+      -->
+
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <img
+            src="./assets/images/shape-bg.png"
+            alt=""
+            class="home__shape_bg"
+          />
+          <div class="container">
+            <p class="section-subtitle text-center label-2">Our Features</p>
+
+            <h2 class="headline-1 section-title text-center">Why choose us?</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-1.png"
+                      width="100"
+                      height="100"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Expertise & </a>
+                      </h3>
+
+                      <span class="badge label-1">Experience</span>
+
+                      <span class="span title-2">
+                        <i class="bx bx-line-chart"></i>
+                      </span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      A reputable real estate construction company brings
+                      extensive expertise and experience to the table. With a
+                      solid track record and professional background, they are
+                      capable of executing diverse and high-quality real estate
+                      projects.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-2.png"
+                      width="100"
+                      height="100"
+                      alt="Lasagne"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title"
+                          >Comprehensive Planning :</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">
+                        <i class="bx bx-buildings"></i>
+                      </span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      The company emphasizes meticulous and comprehensive
+                      planning for its real estate projects. This involves
+                      market analysis, understanding trends, and potential
+                      customer requirements. It also includes identifying ideal
+                      project locations and designing innovative residential and
+                      commercial unit layouts.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-3.png"
+                      width="100"
+                      height="100"
+                      alt="Butternut Pumpkin"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title"
+                          >Quality Construction :</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">
+                        <i class="bx bxs-bar-chart-alt-2"></i>
+                      </span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      A reliable real estate construction company focuses on
+                      maintaining high standards of construction and finishes.
+                      They prioritize using top-quality building materials and
+                      work with experienced contractors and technicians to
+                      ensure projects are built to the highest standards.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-4.png"
+                      width="100"
+                      height="100"
+                      alt="Tokusen Wagyu"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Innovative</a>
+                      </h3>
+
+                      <span class="badge label-1">Design :</span>
+
+                      <span class="span title-2"
+                        ><i class="bx bx-analyse"></i
+                      ></span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      The company values innovative and architecturally
+                      appealing designs that align with market demands and
+                      customer expectations. They strive to deliver unique and
+                      distinctive projects that stand out in terms of design and
+                      architectural engineering.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-5.png"
+                      width="100"
+                      height="100"
+                      alt="Olivas Rellenas"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Attention to Detail :</a>
+                      </h3>
+
+                      <span class="span title-2"
+                        ><i class="bx bxs-chalkboard"></i
+                      ></span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Attention to detail is paramount in all projects
+                      undertaken by the company. They place great importance on
+                      executing precise finishes and equipping projects with all
+                      necessary facilities and services to ensure customer
+                      comfort and satisfaction.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-6.png"
+                      width="100"
+                      height="100"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title"
+                          >Commitment to Timelines :</a
+                        >
+                      </h3>
+
+                      <span class="span title-2"
+                        ><i class="bx bxs-spreadsheet"></i
+                      ></span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      A reliable real estate construction company is committed
+                      to meeting project timelines. They prioritize delivering
+                      projects on schedule according to the agreed-upon
+                      commitments with customers.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <p class="menu-text text-center">
+              Contact us now. We are available from
+              <span class="span">8:00 Am</span> to
+              <span class="span">10:00 pm</span>
+            </p>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Contact</span>
+
+              <span class="text text-2" aria-hidden="true">Us</span>
+            </a>
+
+            <img
+              src="./assets/images/shape-5.png"
+              width="921"
+              height="1036"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="./assets/images/shape-6.png"
+              width="343"
+              height="345"
+              alt="shape"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section
+          class="section testi text-center has-bg-image"
+          style="background-image: url('./assets/images/testimonial-bg.jpg')"
+          aria-label="testimonials"
+        >
+          <div class="container">
+            <div class="quote">”</div>
+
+            <p class="headline-2 testi-text">We make your dreams come true.</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <div class="profile">
+              <img
+                src="./assets/images/4dlogo-1.png"
+                width="100"
+                height="100"
+                alt="Sam Jhonson"
+                class="img"
+              />
+
+              <p class="label-2 profile-name">FOUR DIRECTIONS</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #RESERVATION
+      -->
+
+        <section class="reservation" id="contact">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <form action="" class="form-left">
+                <h2 class="headline-1 text-center">Contact Us Now</h2>
+
+                <p class="form-text text-center">
+                  You can contact us via
+                  <a href="tel:+88123123456" class="link">+88-123-123456</a>
+                  or fill out the order form
+                </p>
+
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    autocomplete="off"
+                    class="input-field"
+                  />
+
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone Number"
+                    autocomplete="off"
+                    class="input-field"
+                  />
+                </div>
+
+                <div class="input-wrapper">
+                  <div class="icon-wrapper">
+                    <ion-icon
+                      name="person-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <select name="person" class="input-field">
+                      <option value="1-person">1 Person</option>
+                      <option value="2-person">2 Person</option>
+                      <option value="3-person">3 Person</option>
+                      <option value="4-person">4 Person</option>
+                      <option value="5-person">5 Person</option>
+                      <option value="6-person">6 Person</option>
+                      <option value="7-person">7 Person</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon
+                      name="calendar-clear-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <input
+                      type="date"
+                      name="reservation-date"
+                      class="input-field"
+                    />
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <select name="person" class="input-field">
+                      <option value="08:00am">08 : 00 am</option>
+                      <option value="09:00am">09 : 00 am</option>
+                      <option value="010:00am">10 : 00 am</option>
+                      <option value="011:00am">11 : 00 am</option>
+                      <option value="012:00am">12 : 00 am</option>
+                      <option value="01:00pm">01 : 00 pm</option>
+                      <option value="02:00pm">02 : 00 pm</option>
+                      <option value="03:00pm">03 : 00 pm</option>
+                      <option value="04:00pm">04 : 00 pm</option>
+                      <option value="05:00pm">05 : 00 pm</option>
+                      <option value="06:00pm">06 : 00 pm</option>
+                      <option value="07:00pm">07 : 00 pm</option>
+                      <option value="08:00pm">08 : 00 pm</option>
+                      <option value="09:00pm">09 : 00 pm</option>
+                      <option value="10:00pm">10 : 00 pm</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  autocomplete="off"
+                  class="input-field"
+                ></textarea>
+
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Send message</span>
+
+                  <span class="text text-2" aria-hidden="true"
+                    >Send message</span
+                  >
+                </button>
+              </form>
+
+              <div
+                class="form-right text-center"
+                style="
+                  background-image: url('./assets/images/form-pattern.png');
+                "
+              >
+                <h2 class="headline-1 text-center">Contact Us</h2>
+
+                <p class="contact-label">Booking Request</p>
+
+                <a
+                  href="tel:+88123123456"
+                  class="body-1 contact-number hover-underline"
+                  >+88-123-123456</a
+                >
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Location</p>
+
+                <address class="body-4">
+                  Building Number 3551 Northern ring <br />
+                  Road postal code 12468 City Riyadh
+                </address>
+
+                <p class="contact-label">Social media</p>
+
+                <div class="group__icons">
+                  <a href="#" target="_blank">
+                    <i class="bx bxl-facebook-circle contact__icon"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="bx bxl-twitter contact__icon"></i>
+                  </a>
+                  <a href="#" target="_blank"
+                    ><i class="bx bxl-instagram contact__icon"></i
+                  ></a>
+                  <a href="#" target="_blank"
+                    ><i class="bx bxl-whatsapp contact__icon"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <p class="section-subtitle label-2">the value</p>
+
+            <h2 class="headline-1 section-title">We help you with</h2>
+
+            <ul class="grid-list">
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-1.png"
+                      width="100"
+                      height="80"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">
+                    Professionalism and Expertise
+                  </h3>
+
+                  <p class="label-1 card-text">
+                    We have a team of professionals with diverse experience in
+                    various aspects of the real estate industry. They have
+                    in-depth knowledge of market trends, regulations, financing
+                    options and legal considerations. Their professionalism and
+                    experience can guide you through the complex real estate
+                    landscape and help you make informed decisions.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-2.png"
+                      width="100"
+                      height="80"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Extensive Resources</h3>
+
+                  <p class="label-1 card-text">
+                    The company has access to extensive resources, including
+                    financial capital, advanced technology, industry networks,
+                    and established relationships with key stakeholders. These
+                    resources can be leveraged to your advantage, facilitating
+                    smoother transactions, faster project execution, and access
+                    to a wider range of opportunities.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-3.png"
+                      width="100"
+                      height="80"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Diverse Portfolio</h3>
+
+                  <p class="label-1 card-text">
+                    The company owns a diversified portfolio of real estate and
+                    projects. Whether you are looking for residential,
+                    commercial, commercial or industrial properties, a great
+                    real estate company can offer a wide range of options to
+                    suit your specific needs and preferences.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-4.png"
+                      width="100"
+                      height="80"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">
+                    Market Knowledge and Analysis
+                  </h3>
+
+                  <p class="label-1 card-text">
+                    With access to comprehensive market research and analysis,
+                    we can provide valuable insights into market trends,
+                    investment opportunities and potential risks. They can help
+                    you identify emerging markets, forecast property values, and
+                    make strategic investment decisions.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-7.png"
+              width="208"
+              height="178"
+              alt="shape"
+              class="shape shape-1"
+            />
+
+            <img
+              src="./assets/images/shape-8.png"
+              width="120"
+              height="115"
+              alt="shape"
+              class="shape shape-2"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+        >
+          <div class="home__shape_small"></div>
+          <div class="home__shape_big-1"></div>
+          <div class="home__shape_big-2"></div>
+          <img
+            src="./assets/images/shape-bg.png"
+            alt=""
+            class="home__shape_bg"
+          />
+          <div class="container">
+            <p class="section-subtitle label-2">Company managers</p>
+
+            <h2 class="headline-1 section-title">
+              The most important officials
+            </h2>
+
+            <p class="section-text">
+              To be the leading provider of the real estate sector by developing
+              innovative real estate and investment products that uplift the
+              real estate development concept in the Kingdom of Saudi Arabia.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-1.jpg"
+                        width="285"
+                        height="336"
+                        alt="Breakfast"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Executive Director</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Abdullah bin Ali</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-2.jpg"
+                        width="285"
+                        height="336"
+                        alt="Appetizers"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Director general</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Ahmed bin Ayyad</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-3.jpg"
+                        width="285"
+                        height="336"
+                        alt="Drinks"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">financial manager</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Owais Al-Hadi</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url('./assets/images/footer-bg.jpg')"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <ul class="footer-list">
+            <li>
+              <a href="#home" class="label-2 footer-link hover-underline"
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a href="#event" class="label-2 footer-link hover-underline"
+                >Our Projects</a
+              >
+            </li>
+
+            <li>
+              <a href="#about" class="label-2 footer-link hover-underline"
+                >About Us</a
+              >
+            </li>
+
+            <li>
+              <a href="#features" class="label-2 footer-link hover-underline"
+                >Features</a
+              >
+            </li>
+
+            <li>
+              <a href="#contact" class="label-2 footer-link hover-underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.png"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              Building Number 3551, Northern ring Road postal, code 12468, City
+              Riyadh
+            </address>
+
+            <a href="mailto:booking@grilli.com" class="body-4 contact-link"
+              >info@saudi4d.com</a
+            >
+
+            <a href="tel:+88123123456" class="body-4 contact-link"
+              >Phone number : + 00966115128080</a
+            >
+
+            <p class="body-4">Open : 08:00 am - 10:00 pm</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Get News & Offers</p>
+
+            <p class="label-1">
+              Subscribe us & Get <span class="span">25% Off.</span>
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Your email"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Subscribe</span>
+
+                <span class="text text-2" aria-hidden="true">Subscribe</span>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2024 Four Directions. All Rights Reserved | Crafted by
+            <a
+              href="https://ahmedragab24.github.io/"
+              target="_blank"
+              class="link"
+              >Ahmed ragab</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+
+      <!--  
+        SWIPER JS 
+      -->
+      <script src="./assets/js/swiper-bundle.min.js"></script>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+      - ionicon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
