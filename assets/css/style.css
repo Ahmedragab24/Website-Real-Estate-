@@ -429,7 +429,7 @@ body.nav-active {
   left: 50%;
   transform: translateX(-50%);
   min-width: max-content;
-  color: var(--smoky-black-1);
+  color: var(--white);
   filter: drop-shadow(1px 1px 1px hsla(0, 0%, 28%, 0.5));
   -webkit-filter: drop-shadow(1px 1px 1px hsla(0, 0%, 28%, 0.5));
 }
@@ -1509,6 +1509,7 @@ body.dark-theme {
 
 .menu-card .card-title {
   transition: var(--transition-1);
+  color: var(--gold-crayola);
 }
 
 .menu-card .card-title:is(:hover, :focus-visible) {
@@ -1644,13 +1645,16 @@ body.dark-theme {
 }
 
 .form-right .body-3,
-.form-right .body-1,
-.form-right .contact__icon {
+.form-right .body-1 {
   font-weight: var(--weight-bold);
-  color: var(--gold-crayola);
+  border-radius: 10px;
   line-height: var(--lineHeight-3);
   filter: drop-shadow(4px 4px 4px rgb(0, 0, 0));
   -webkit-filter: drop-shadow(4px 4px 4px rgb(0, 0, 0));
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .form-right .body-3 {
@@ -1713,16 +1717,19 @@ textarea.input-field {
 
 .contact__icon {
   color: var(--gold-crayola);
-  font-size: var(--fontSize-body-2);
+  font-size: 2rem;
+  font-weight: bolder;
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
+  filter: drop-shadow(4px 4px 4px rgb(0, 0, 0));
+  -webkit-filter: drop-shadow(4px 4px 4px rgb(0, 0, 0));
 }
 
 .contact__icon:hover {
-  color: var(--smoky-black-1);
+  /* color: var(--smoky-black-1); */
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
